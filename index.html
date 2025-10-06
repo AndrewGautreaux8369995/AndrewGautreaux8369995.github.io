@@ -1,13 +1,115 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>CHANGE ME</title>
-  </head>
-
-  <body>
-    <!-- All content goes here -->
-    <div id="all-contents">
+<head>
+  <title>Andrew's Amazing Website</title>
+  <link rel="stylesheet" href ="style.css">
+</head>
+ 
+  <body> 
+ 
+<div>
+  <nav>
+    <h1>Andrew's Awesome Website</h1>
+    <ul>
+      <li>
+        <a href="index.html"> Home </a>
+      </li>
+      <li>
+        <a href="portfolio.html"> Portfolio </a>
+      </li>
+    </ul>
+  </nav>
+  <img src="data:image/png;base64,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">      
+  <main>
+    <!--Sidebar section-->
+    <div>
       
     </div>
-  </body>
+    
+    <!--Content section-->
+    <div>
+      <h2>Andrew Gautreaux</h2>
+      <p>Student at DTSMA</p>
+      <!-- Interests section -->
+      <div>
+        <h3>Interests</h3>
+        <ul>
+          <li>Playing Baseball</li>
+          <li>MLB</li>
+          <li>College Baseball</li>
+        </ul>
+        <!--Sidebar section-->
+      <div>
+    </div>
+  </main>
+  </div>
+</body>
 </html>
+
+
+
+
+
+
+   body {
+       background: rgb(125, 198, 205);
+       color: rgb(45, 45, 45);
+       padding: 10px;
+       font-family: arial;
+   }
+   #all-contents {
+     max-width: 800px;
+       margin: auto;
+   }
+
+   /* navigation menu */
+   nav {
+       background: rgb(239, 80, 41);
+      margin: 0 auto;
+       display: flex;
+       padding: 10px;
+   }
+   h1 {
+       display: flex;
+       align-items: center;
+       color: white;
+       flex: 1;
+       margin: 0;
+   }
+   #nav-ul {
+       list-style-image: none;
+   }
+   .nav-li {
+       display: inline-block;
+       padding: 0 10px;
+   }
+   a {
+       text-decoration: none;
+       color: #fff;
+   }
+
+   /* main container area beneath menu */
+   main {
+       background: rgb(245, 238, 219);
+       display: flex;
+   }
+   .sidebar {
+       margin-right: 25px;
+       padding: 10px;
+   }
+   .sidebar-img {
+       width: 200px;
+   }
+   .content {
+       flex: 1;
+       padding: 15px;
+   }
+
+   /* portfolio styles */
+   #interests {
+       border: 4px silver ridge;
+       padding: 8px;
+   }
+   h2, h3 {
+       margin: 0px;
+   }
