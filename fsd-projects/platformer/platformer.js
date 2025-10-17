@@ -42,10 +42,10 @@ createCollectable('kennedi',800,300);
 createCollectable('grace',700,400); 
     
     // TODO 4 - Create Cannons
-
-
-    
-    
+createCannon("right",500, 1000);
+createCannon("left",400,800);
+createCannon("top",700,800);
+      
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
     //////////////////////////////////
